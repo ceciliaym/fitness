@@ -1,0 +1,101 @@
+<form>
+   <ol>
+    <li>First and last name:</li>
+    <input type="text" name="firstname"><br><br>
+
+    <li>Current weight:</li> 
+    <input type="number" name="weight"><br><br>
+
+    <li>Have you ever had a personal trainer before?</li>
+    <input type="radio" name="before" value="yes">Yes<br>
+    <input type="radio" name="before" value="no">No<br><br>
+
+    <li>Do you have any medical conditions?</li>
+    <input type="radio" name="medical" value="yes">Yes<br>
+    <input type="radio" name="medical" value="no">No<br><br>
+    If you answered yes describe them below:<br>
+    <input type="text" name="listconditions"><br><br>
+
+    <li>what are your eating habits?:</li>
+    <input type="radio" name="eat" value="helthy">I eat very healthy<br>
+    <input type="radio" name="eat" value="semihealthy">I eat moderately healthy<br>
+    <input type="radio" name="eat" value="nothealthy">I don't eat healthy at all<br><br>
+
+    <li>Are you currently active?:</li>
+    <input type="radio" name="active" value="yesactive">I eat very active<br>
+    <input type="radio" name="active" value="semiactive">I eat moderately active<br>
+    <input type="radio" name="active" value="notactive">I am not active at all<br><br>
+
+    <li>What are you looking to accomplish?:</li>
+    <input type="radio" name="fitnesswant" value="weightloss">Lose Weight<br>
+    <input type="radio" name="fitnesswant" value="gain">Gain Weight<br>
+    <input type="radio" name="fitnesswant" value="gainMuscle">Gain Muscle<br>
+    <input type="radio" name="fitnesswant" value="remain">Remain Current Weight<br><br>
+
+    <li>What do you have?:</li>
+    <input type="checkbox" name="low" value="days"> Wights<br>
+    <input type="checkbox" name="medium" value="days">Tredmill<br>
+    <input type="checkbox" name="large" value="days">Jump rope<br><br>
+
+    <li>How many days a week would you like to meet with a trainer?:</li>
+    <input type="radio" name="days" value="low">2 a week<br>
+    <input type="radio" name="days" value="medium">4 times a week<br>
+    <input type="radio" name="days" value="large">6 times a week<br>
+    <input type="radio" name="days" value="mix">vary weekly <br>
+
+    <li>What are your goals in finding a trainer?:</li>
+    <input type="text" name="listgoals"><br><br>
+    </ol>
+  </form>
+
+ <button id="myBtn">Click to find a trainer</button> 
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h3>Meet Your Trainer</h3>
+    <h1>Name: Patrick Francis</h1>
+    <img src="/images/pat.jpg" alt="insert pic">
+    <h1>expierence: 10+ years as a personal fitness coach</h1>
+    <h1>Bio:</h1>
+    <h1>Are you ready to get into shape! I am here to meet all of your fitness
+        goals. I have trained only the best athlets in the field. Send me a message!
+    </h1>
+    <h2>Check out some example videos</h2>
+    <iframe width="360" height="215" src="https://www.youtube.com/embed/qWy_aOlB45Y" frameborder="0" allow="autoplay; encrypted-media"></iframe><br><br>
+     <a href="mailto:cleanlifellc@gmail.com" class="btn btn-info" role="button">Email me to get started</a>
+  </div>
+
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
