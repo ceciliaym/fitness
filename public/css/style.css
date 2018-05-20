@@ -1,13 +1,10 @@
 body {
     background-image: url(../images/down.jpg);
     background-repeat:no-repeat;
-
+  
     background-size:cover;
 }
 
-img{
-    width: 150%;
-}
 
 .jumbotron{
     background-color: transparent!important;
@@ -18,6 +15,13 @@ img{
    
 }
 
+.questions{
+    background-image: url(../images/colors.jpg);
+    background-repeat:no-repeat;
+   
+    background-size:cover;
+}
+
 h4{
     font-size: 40px;
     text-align: center;
@@ -26,8 +30,13 @@ h4{
     color: green;
 }
 
+.programs{
+   text-align: center;
+}
 
-
+.pat{
+    margin-left: 42%;
+}
 
 
 .form-group{
@@ -40,11 +49,26 @@ h4{
 .upload{
     width: 75%;
 }
+
+li{
+    font-family: 'Patua One', cursive;
+    color: black;
+    font-size: 20px;
+
+}
+
+.myBtn{
+    color: green;
+    margin-left: 30%;
+}
     
 
 .reg{
-    background-color:rgba(0,255,0,0.3);
-    margin-left: 20%;
+    background-image: url(../images/colors.jpg);
+    background-repeat:no-repeat;
+   
+    background-size:cover;
+    margin-left: 22%;
     padding-left: 10%;
     padding-top: 5%;
     padding-right: 10%;
@@ -69,6 +93,13 @@ p {
     text-align: center;
     margin-left: 35%;
 }
+
+h3{
+    font-family: 'Patua One', cursive;
+    color: green;
+    text-align: center;
+}
+
 
 .col-md-offset-3{
     margin-top: -7%;
@@ -139,6 +170,14 @@ h1{
     border-right: 2px solid #d4d4d4;
 }
 
+.btn-info{
+    margin-left: 42%;
+}
+
+.video{
+    margin-left: 32%;
+}
+
 .fa.fa-check {
     color: #2cc14f;
 }
@@ -204,4 +243,12 @@ body {
     text-decoration: none;
     cursor: pointer;
 }
+
+.up{
+    
+    width:50%;
+
+}
+
+
 
