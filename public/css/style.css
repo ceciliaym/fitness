@@ -19,6 +19,7 @@ body {
     background-image: url(../images/colors.jpg);
     background-repeat:no-repeat;
    
+   
     background-size:cover;
 }
 
@@ -202,7 +203,13 @@ body {
   content: "" counter(section) ": "; /* Display the counter */
 }
 
+button{
+    margin-left: 50%;
+    background-color: lightgreen;
+    border-radius: 8px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 
+}
 
 /* The Modal (background) */
 .modal {
