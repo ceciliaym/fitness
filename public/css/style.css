@@ -202,9 +202,7 @@ body {
   content: "" counter(section) ": "; /* Display the counter */
 }
 
-.features_table{
-    background-color: white;
-}
+
 
 /* The Modal (background) */
 .modal {
